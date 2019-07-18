@@ -1,13 +1,28 @@
+/* main color */
+/* #9698A3 - gray, #FCFCFC - white
+   #202126 - black, #27282D - light black
+   #252736 - test
+   font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+dota2 id 172187697
+*/
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif !important;
+  color: #9698a3 !important;
+  background-color: #252736 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.bg-hero {
+  background-color: #303242;
+  font-size: 14px;
+}
+
+.bg-hero .display-info {
+  padding: 5px 5px;
+  width: 65%;
+}
+
+.bg-hero .display-info li {
+  background-color: #41435a !important;
 }
