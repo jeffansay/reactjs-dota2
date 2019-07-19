@@ -9,22 +9,22 @@ export default class Hero extends Component {
     super(props);
   }
   componentDidMount() {
-    axios
-      .get(this.state.urlInit)
-      .then(response => {
-        return this.setState({
-          heroes: response.data
-        });
-      })
-      .catch(err => console.log(err, "--error"));
+  //   axios
+  //     .get(this.state.urlInit)
+  //     .then(response => {
+  //       return this.setState({
+  //         heroes: response.data
+  //       });
+  //     })
+  //     .catch(err => console.log(err, "--error"));
   }
 
   state = {
     heroes: [],
     search: "",
-    urlInit: `https://api.opendota.com/api/players/172187697`
+    urlInit: `https://api.opendota.com/api/players/468456260`
   };
-
+  // 172187697
   handleChange = e => {
     this.setState({
       search: e.target.value

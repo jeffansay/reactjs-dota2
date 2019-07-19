@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
-
+import { Card } from 'reactstrap'
 export default class display extends Component {
   render() {
     // console.log(this.props.hero.profile, "--check from display");
@@ -12,8 +12,9 @@ export default class display extends Component {
     } else {
       return (
         <React.Fragment>
+          <Card>
           <div className="content my-5">
-            <div className="title text-center mb-3">
+            <div className="title mb-3 ">
               <img src={hero.profile.avatar} alt="avatar" />
               <h6>Name: {hero.profile.personaname}</h6>
               <h6>Steam id: {hero.profile.steamid}</h6>
@@ -44,6 +45,7 @@ export default class display extends Component {
               </ListGroupItem>
             </ListGroup>
           </div>
+          </Card>
         </React.Fragment>
       );
     }
