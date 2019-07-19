@@ -3,7 +3,7 @@ import logo from "../assets/dota-2.png";
 export default class navbar extends Component {
   render() {
     return (
-      <nav className="site-header sticky-top py-1 bg-light">
+      <nav className="site-header py-1 bg-light">
         <div className="container d-flex">
           <div className="navbar-brand">
             <img src={logo} alt="logo" />
