@@ -8,6 +8,17 @@ dota2 id 172187697
 #302F46
 */
 
+.green {
+  color: rgb(69, 236, 69);
+}
+
+.red {
+  color: rgb(240, 68, 68);
+}
+
+.blue {
+  color: rgb(71, 71, 250);
+}
 body {
   font-family: "Open Sans", sans-serif !important;
   color: #9698a3 !important;
@@ -25,7 +36,7 @@ body {
 }
 
 .hero-area {
-  background-image: url('./assets//wind.jpg');
+  background-image: url("./assets//wind.jpg");
   position: relative;
   height: 70vh;
   background-size: cover;
@@ -37,7 +48,7 @@ body {
 }
 
 .table-dark {
-  background-color: #302F46 !important
+  background-color: #302f46 !important;
 }
 
 .table-dark th {
@@ -46,4 +57,44 @@ body {
 
 .table-dark td {
   font-size: 13px;
+}
+
+.table-dark tr:hover {
+  cursor: pointer;
+  background-color: #3e3d5a;
+}
+
+.card-display {
+  background: white;
+  border-radius: 8px;
+  background-color: #302f46 !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  /* cursor: pointer; */
+  height: 300px;
+  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.025);
+  text-align: center;
+  transition: height 1000ms;
+  /* width: 260px; */
+}
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
 }
