@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "reactstrap";
+import { Button, Label } from "reactstrap";
 import wind from "../assets/wind.jpg";
 // import am from "/images/heroes/antimage.png";
 
@@ -29,17 +30,32 @@ class DisplayHero extends Component {
     } else {
       return (
         <div>
-          <Card
-            className={`card-display ${
-              this.state.toggle !== "" ? this.state.toggle : ""
-            }`}
-            onClick={this.onClicks}
-          >
+          <Card className={`card-display `}>
+            <div className="title-hero text-center text-capitalize pt-4">
+              <h6>{findHero.localized_name}</h6>
+            </div>
             <div
               className="ml-auto mr-auto image-box"
-              style={{ zIndex: 1, marginTop: "25px" }}
+              style={{ zIndex: 1, marginTop: "5%" }}
             >
               <img src={`../images/heroes/${findHero.image}.png`} alt="test" />
+            </div>
+            <div className="content-hero text-center">
+              <ul className="pl-0">
+                {findHero.skills.map((skill, index) => {
+                  console.log("skill", skill);
+                  return (
+                    <Label className="pr-1 pl-1" key={index}>
+                      <img
+                        src={`../images/spellicons/${skill}.png`}
+                        alt="check"
+                        style={{ height: "30px", width: "35px" }}
+                      />
+                    </Label>
+                  );
+                })}
+              </ul>
+              <Button color="danger">Details</Button>{" "}
             </div>
           </Card>
         </div>

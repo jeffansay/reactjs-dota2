@@ -6,6 +6,12 @@
     "primary_attr": "agi",
     "attack_type": "Melee",
     "image": "antimage",
+    "skills": [
+      "antimage_mana_break",
+      "antimage_blink",
+      "antimage_spell_shield",
+      "antimage_mana_void"
+    ],
     "roles": ["Carry", "Escape", "Nuker"],
     "legs": 2
   },
@@ -16,6 +22,12 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "axe",
+    "skills": [
+      "axe_berserkers_call",
+      "axe_battle_hunger",
+      "axe_counter_helix",
+      "axe_culling_blade"
+    ],
     "roles": ["Initiator", "Durable", "Disabler", "Jungler"],
     "legs": 2
   },
@@ -26,6 +38,13 @@
     "primary_attr": "int",
     "attack_type": "Ranged",
     "image": "bane",
+    "skills": [
+      "bane_enfeeble",
+      "bane_brain_sap",
+      "bane_nightmare",
+      "bane_fiends_grip",
+      "bane_nightmare_end"
+    ],
     "roles": ["Support", "Disabler", "Nuker", "Durable"],
     "legs": 4
   },
@@ -36,6 +55,12 @@
     "primary_attr": "agi",
     "attack_type": "Melee",
     "image": "bloodseeker",
+    "skills": [
+      "bloodseeker_bloodrage",
+      "bloodseeker_blood_bath",
+      "bloodseeker_thirst",
+      "bloodseeker_rupture"
+    ],
     "roles": ["Carry", "Disabler", "Jungler", "Nuker", "Initiator"],
     "legs": 2
   },
@@ -46,6 +71,12 @@
     "primary_attr": "int",
     "attack_type": "Ranged",
     "image": "crystal_maiden_alt1",
+    "skills": [
+      "crystal_maiden_crystal_nova_icecowl",
+      "crystal_maiden_frostbite",
+      "crystal_maiden_brilliance_aura",
+      "crystal_maiden_freezing_field_alt1"
+    ],
     "roles": ["Support", "Disabler", "Nuker", "Jungler"],
     "legs": 2
   },
@@ -56,6 +87,12 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "drow_ranger",
+    "skills": [
+      "drow_ranger_frost_arrows",
+      "drow_ranger_silence",
+      "drow_ranger_trueshot",
+      "drow_ranger_marksmanship"
+    ],
     "roles": ["Carry", "Disabler", "Pusher"],
     "legs": 2
   },
@@ -66,6 +103,12 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "earthshaker",
+    "skills": [
+      "earthshaker_fissure",
+      "earthshaker_enchant_totem",
+      "earthshaker_aftershock",
+      "earthshaker_echo_slam"
+    ],
     "roles": ["Support", "Initiator", "Disabler", "Nuker"],
     "legs": 2
   },
@@ -76,6 +119,12 @@
     "primary_attr": "agi",
     "attack_type": "Melee",
     "image": "juggernaut",
+    "skills": [
+      "juggernaut_blade_fury",
+      "juggernaut_healing_ward",
+      "juggernaut_blade_dance",
+      "juggernaut_omni_slash"
+    ],
     "roles": ["Carry", "Pusher", "Escape"],
     "legs": 2
   },
@@ -86,6 +135,12 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "mirana",
+    "skills": [
+      "mirana_starfall",
+      "mirana_arrow",
+      "mirana_leap",
+      "mirana_invis"
+    ],
     "roles": ["Carry", "Support", "Escape", "Nuker", "Disabler"],
     "legs": 2
   },
@@ -96,6 +151,14 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "morphling",
+    "skills": [
+      "morphling_waveform",
+      "morphling_adaptive_strike_agi",
+      "morphling_adaptive_strike_str",
+      "morphling_morph_agi",
+      "morphling_morph_str",
+      "morphling_replicate"
+    ],
     "roles": ["Carry", "Escape", "Durable", "Nuker", "Disabler"],
     "legs": 0
   },
@@ -106,6 +169,14 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "nevermore",
+    "skills": [
+      "nevermore_shadowraze1",
+      "nevermore_shadowraze2",
+      "nevermore_shadowraze3",
+      "nevermore_necromastery",
+      "nevermore_dark_lord",
+      "nevermore_requiem"
+    ],
     "roles": ["Carry", "Nuker"],
     "legs": 0
   },
@@ -116,6 +187,12 @@
     "primary_attr": "agi",
     "attack_type": "Melee",
     "image": "phantom_lancer",
+    "skills": [
+      "phantom_lancer_spirit_lance",
+      "phantom_lancer_doppelwalk",
+      "phantom_lancer_phantom_edge",
+      "phantom_lancer_juxtapose"
+    ],
     "roles": ["Carry", "Escape", "Pusher", "Nuker"],
     "legs": 2
   },
@@ -126,6 +203,13 @@
     "primary_attr": "int",
     "attack_type": "Ranged",
     "image": "puck",
+    "skills": [
+      "puck_illusory_orb",
+      "puck_waning_rift",
+      "puck_phase_shift",
+      "puck_ethereal_jaunt",
+      "puck_dream_coil"
+    ],
     "roles": ["Initiator", "Disabler", "Escape", "Nuker"],
     "legs": 2
   },
@@ -136,6 +220,12 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "pudge",
+    "skills": [
+      "pudge_meat_hook",
+      "pudge_rot",
+      "pudge_flesh_heap",
+      "pudge_dismember"
+    ],
     "roles": ["Disabler", "Initiator", "Durable", "Nuker"],
     "legs": 2
   },
@@ -146,6 +236,12 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "razor",
+    "skills": [
+      "razor_plasma_field",
+      "razor_static_link",
+      "razor_unstable_current",
+      "razor_eye_of_the_storm"
+    ],
     "roles": ["Carry", "Durable", "Nuker", "Pusher"],
     "legs": 0
   },
@@ -156,6 +252,12 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "sand_king",
+    "skills": [
+      "sandking_burrowstrike",
+      "sandking_sand_storm",
+      "sandking_caustic_finale",
+      "sandking_epicenter"
+    ],
     "roles": ["Initiator", "Disabler", "Support", "Nuker", "Escape", "Jungler"],
     "legs": 6
   },
@@ -166,6 +268,12 @@
     "primary_attr": "int",
     "attack_type": "Ranged",
     "image": "storm_spirit",
+    "skills": [
+      "storm_spirit_static_remnant",
+      "storm_spirit_electric_vortex",
+      "storm_spirit_overload",
+      "storm_spirit_ball_lightning"
+    ],
     "roles": ["Carry", "Escape", "Nuker", "Initiator", "Disabler"],
     "legs": 2
   },
@@ -176,6 +284,12 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "sven",
+    "skills": [
+      "sven_storm_bolt",
+      "sven_great_cleave",
+      "sven_warcry",
+      "sven_gods_strength"
+    ],
     "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
     "legs": 2
   },
@@ -186,6 +300,13 @@
     "primary_attr": "str",
     "attack_type": "Melee",
     "image": "tiny",
+    "skills": [
+      "tiny_avalanche",
+      "tiny_toss",
+      "tiny_craggy_exterior",
+      "tiny_grow",
+      "tiny_toss_tree"
+    ],
     "roles": ["Carry", "Nuker", "Pusher", "Initiator", "Durable", "Disabler"],
     "legs": 2
   },
@@ -196,6 +317,12 @@
     "primary_attr": "agi",
     "attack_type": "Ranged",
     "image": "vengefulspirit",
+    "skills": [
+      "vengefulspirit_magic_missile",
+      "vengefulspirit_wave_of_terror",
+      "vengefulspirit_command_aura",
+      "vengefulspirit_nether_swap"
+    ],
     "roles": ["Support", "Initiator", "Disabler", "Nuker", "Escape"],
     "legs": 2
   },

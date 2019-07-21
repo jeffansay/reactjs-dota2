@@ -84,6 +84,7 @@ body {
   position: relative;
   margin: auto;
   overflow: hidden;
+  margin-bottom: 5%;
 }
 .image-box img {
   max-width: 100%;
@@ -92,7 +93,6 @@ body {
   width: 100%;
   height: auto;
   transform: scale(1);
-  cursor: pointer;
 }
 
 .image-box:hover img {
